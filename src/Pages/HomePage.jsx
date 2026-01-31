@@ -1,12 +1,14 @@
-import { Header } from '../components/Header';
-import './HomePage.css';
+import { Header } from "../components/Header";
+import "./HomePage.css";
 
 export function HomePage() {
   return (
     <>
-    <Header />
-    
-    <title>Ecommerce Project</title>
+      <link rel="icon" href="/home-favicon.png" />
+
+      <Header />
+
+      <title>Ecommerce Project</title>
 
       <div className="home-page">
         <div className="products-grid">
