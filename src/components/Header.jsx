@@ -1,8 +1,8 @@
 import { NavLink } from 'react-router';
 import cartIcon from '../assets/images/icons/cart-icon.png';
-import searchIcon from "../assets/images/icons/search-icon.png";
-import logoWhite from "../assets/images/logo-white.png";
-import mobileLogoWhite from "../assets/images/mobile-logo-white.png";
+import searchIcon from '../assets/images/icons/search-icon.png';
+import logoWhite from '../assets/images/logo-white.png';
+import mobileLogoWhite from '../assets/images/mobile-logo-white.png';
 import './Header.css';
 
 export function Header({ cart }) {
